@@ -1,5 +1,6 @@
 #nameList {
   margin: auto;
+  text-align: center;
   margin-top: 4vh;
   max-width: 1000px;
   border-left: 4px solid #ffc6e5;
@@ -9,12 +10,19 @@
   border-radius: 8px;
 }
 
+#searchBar {
+  margin-top: 32px;
+  border: 2px solid #a2c4fb;
+  border-radius: 3px;
+  padding: 8px;
+}
+
 #nameList > ul {
   display: flex;
   list-style: none;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 20px;
+  padding: 24px;
 }
 
 .m, .f {
@@ -32,4 +40,9 @@
 .f {
   color: #990b58;
   background-color: #ffc6e5;
+}
+
+#line {
+  margin: 40px 80px;
+  border-color: lightgrey;
 }
